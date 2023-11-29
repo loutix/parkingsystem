@@ -137,6 +137,18 @@
                         <goals>
                             <goal>report</goal>
                         </goals>
+                        <configuration>
+                            <excludes>
+                                <!--                                <exclude>com.parkit.parkingsystem.constants.*</exclude>-->
+                                <!--                                <exclude>com.parkit.parkingsystem.model.*</exclude>-->
+                                <!--                                <exclude>com.parkit.parkingsystem.App</exclude>-->
+
+                                <exclude>com/parkit/parkingsystem/constants/**</exclude>
+                                <exclude>com/parkit/parkingsystem/model**</exclude>
+                                <exclude>com/parkit/parkingsystem/config/**</exclude>
+                                <exclude>com/parkit/parkingsystem/App**</exclude>
+                            </excludes>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
