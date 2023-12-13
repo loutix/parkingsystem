@@ -46,7 +46,7 @@ public class ParkingService {
                 ticket.setInTime(inTime);
                 ticket.setOutTime(null);
 
-                //todo fin du 1er test d'intégration
+
                 ticketDAO.saveTicket(ticket);
 
                 // if the user has already used the parking, display a discount message
