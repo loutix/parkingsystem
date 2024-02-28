@@ -13,7 +13,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith(MockitoExtension.class)
-class ParkingSpotDAOTest {
+class ParkingSpotDAOIT {
     private final DataBasePrepareService dataBasePrepareService = new DataBasePrepareService();
 
     private final ParkingSpotDAO parkingSpotDAO = new ParkingSpotDAO();

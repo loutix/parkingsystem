@@ -129,9 +129,6 @@ public class ParkingServiceTest {
         verify(inputReaderUtil, Mockito.times(1)).readSelection();
         Mockito.verifyZeroInteractions(parkingSpotDAO);
 
-        //todo revoir ici
-        //assertThrows(IllegalArgumentException.class, () -> parkingService.processIncomingVehicle());
-
         assertNull(parkingService.getNextParkingNumberIfAvailable());
     }
 
